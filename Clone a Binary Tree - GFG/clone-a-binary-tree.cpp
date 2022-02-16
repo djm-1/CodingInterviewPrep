@@ -71,8 +71,9 @@ class Solution{
         return NULL;
        Node *root=new Node(tree->data);
        root->left=cloneTree(tree->left);
-       root->right=cloneTree(tree->right);
        root->random=tree->random;
+       root->right=cloneTree(tree->right);
+       
        return root;
        
     }
