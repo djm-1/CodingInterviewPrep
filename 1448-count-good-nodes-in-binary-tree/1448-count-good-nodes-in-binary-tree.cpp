@@ -12,7 +12,8 @@
 class Solution {
 public:
     int count=0;
-    void inorder(TreeNode* root, int maxi){
+    //int maxi=INT_MIN;
+    void inorder(TreeNode* root,int maxi){
         if(root==NULL)
             return;
         
@@ -26,9 +27,9 @@ public:
         //return;
     }
     int goodNodes(TreeNode* root) {
+       
         int maxi=INT_MIN;
-        
-        inorder(root,INT_MIN);
+        inorder(root,maxi);
         return count;
     }
 };
