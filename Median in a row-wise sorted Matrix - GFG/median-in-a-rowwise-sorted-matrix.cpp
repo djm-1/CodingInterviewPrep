@@ -20,7 +20,7 @@ public:
         
         int target=(r*c+1)/2;
         
-        while(low<high){
+        while(low<=high){
             int mid=(low+high)/2;
             int count=0;
             for(int i=0;i<row;i++)
@@ -31,7 +31,7 @@ public:
             if(count<target)
                 low=mid+1;
             else
-                high=mid;
+                high=mid-1;
         }
         return low;
     }
