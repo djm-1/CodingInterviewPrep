@@ -92,24 +92,55 @@ struct Node
 
 class Solution {
 public:
-     int maxsum =INT_MIN;
+    int res=INT_MIN;
+    int max_sum(Node*root)
+    {
+        if (root==NULL)
+        {
+            return 0;
+        }
+        if(root->left==NULL && root->right==NULL)
+        {
+           
+            return root->data;
+        }
+        
+        // return maximum sum of path from root to leaf in left subtree
+        int ls=max_sum(root->left);
+        // return maximum sum of path from root to leaf in right subtree
+        int rs=max_sum(root->right);
+        
+        if (root->right && root->left)
+        {  
+          //update res
+           res=max(res,ls+rs+root->data);
+           
+           return max(ls,rs)+root->data;
+        }
+     
+        if (root->left==NULL)
+        {
+            
+            return rs+root->data;
+        }
+        if (root->right==NULL)
+        {
+            
+            return ls+root->data;
+        }
+        
+       
+        
+    }
 
-   int maxPathSumUtil(Node* root)
-   {
-       if(!root)return 0;
-       int l = maxPathSumUtil(root->left);
-       int r= maxPathSumUtil(root->right);
-       if(root->left && root->right){
-       maxsum =max(maxsum,l+r+root->data);
-       return root->data+max(l,r);}
-       else if(root->left)return root->data+l;
-       else return root->data+r;
-   }
-   int maxPathSum(Node* root){
-       int x= maxPathSumUtil(root);
-       if(root->left && root->right)return maxsum;
-       return max(maxsum,x);
-   }
+    int maxPathSum(Node* root)
+    {
+        // code here
+        int val=max_sum(root);
+        if(root->left && root->right)
+            return res;
+        return max(val,res);
+    }
 };
 
 // { Driver Code Starts.
