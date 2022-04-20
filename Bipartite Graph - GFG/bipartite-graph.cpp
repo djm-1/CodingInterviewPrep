@@ -7,25 +7,22 @@ class Solution {
 public:
 
     bool checkBipartite(vector<int>&visited,vector<int>adj[],int source){
-        queue<int>q;
-        visited[source]=0;
-        q.push(source);
-        while(!q.empty()){
-            int node=q.front();
-            q.pop();
-            for(auto x:adj[node])
-            {
-                if(visited[x]==-1)
-                {
-                    visited[x]=1-visited[node];
-                    q.push(x);
-                }
-                else if(visited[x]==visited[node])
-                    return false;
-            }
-        }
         
+        
+        for(auto x:adj[source])
+        {
+            if(visited[x]==-1)
+            {
+                visited[x]=1-visited[source];
+                if(!checkBipartite(visited,adj,x))
+                    return false;
+                
+            }
+            else if(visited[x]==visited[source])
+                return false;
+        }
         return true;
+        
     }
 	bool isBipartite(int V, vector<int>adj[]){
 	    // Code here
