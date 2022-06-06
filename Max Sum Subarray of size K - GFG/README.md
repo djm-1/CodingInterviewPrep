@@ -44,8 +44,8 @@ Arr = [100, 200, 300, 400]</span>
 
 <p><br>
 <span style="font-size:18px"><strong>Constraints:</strong><br>
-1&lt;=N&lt;=10<sup>5</sup><br>
-1&lt;=K&lt;=N</span><br>
+1&lt;=N&lt;=10<sup>6</sup></span><br>
+<span style="font-size:18px">1&lt;=K&lt;=N</span><br>
 &nbsp;</p>
  <p></p>
             </div>
