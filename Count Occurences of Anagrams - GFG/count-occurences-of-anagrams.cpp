@@ -8,6 +8,18 @@ using namespace std;
 //User function template for C++
 class Solution{
 public:
+    bool checkAnagram(vector<int>&freq1,vector<int>&freq2){
+        bool check=true;
+	    for(int i=0;i<26;i++)
+	    {
+	        if(freq1[i]!=freq2[i])
+	        {
+	            check=false;
+	            break;
+	        }
+	    }
+	    return check;
+    }
 	int search(string pat, string txt) {
 	    // code here
 	    vector<int>freq1(26,0),freq2(26,0);
@@ -18,32 +30,15 @@ public:
 	    {
 	        freq2[txt[i]-'a']++;
 	    }
-	    bool check=true;
-	    for(int i=0;i<26;i++)
-	    {
-	        if(freq1[i]!=freq2[i])
-	        {
-	            check=false;
-	            break;
-	        }
-	    }
-	    if(check)
-	        count=1;
+	    
+	    if(checkAnagram(freq1,freq2))
+	        count++;
 	    int start=0;
 	   for(int end=pat.size();end<txt.size();end++)
 	   {
 	       freq2[txt[start]-'a']--;
 	       freq2[txt[end]-'a']++;
-	       check=true;
-	    for(int i=0;i<26;i++)
-	    {
-	        if(freq1[i]!=freq2[i])
-	        {
-	            check=false;
-	            break;
-	        }
-	    }
-	    if(check)
+	       if(checkAnagram(freq1,freq2))
 	        count++;
 	   start++;
 	   }
