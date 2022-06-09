@@ -1,5 +1,5 @@
 # Count Occurences of Anagrams
-## Medium 
+##  Medium 
 <div class="problem-statement">
                 <p></p><p><span style="font-size:18px">Given a word <strong>pat</strong>&nbsp;and a text <strong>txt</strong>. Return the count of the occurences of anagrams of the word in the text.</span></p>
 
