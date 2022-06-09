@@ -8,43 +8,35 @@ using namespace std;
 //User function template for C++
 class Solution{
 public:
-    bool checkAnagram(vector<int>&freq1,vector<int>&freq2){
-        bool check=true;
-	    for(int i=0;i<26;i++)
-	    {
-	        if(freq1[i]!=freq2[i])
-	        {
-	            check=false;
-	            break;
-	        }
-	    }
-	    return check;
-    }
 	int search(string pat, string txt) {
 	    // code here
-	    vector<int>freq1(26,0),freq2(26,0);
-	    for(auto x:pat)
-	        freq1[x-'a']++;
-	    int count=0;
-	    for(int i=0;i<pat.size();i++)
-	    {
-	        freq2[txt[i]-'a']++;
+	    int start=0,end=0;
+	    unordered_map<char,int>m;
+	    for(auto x:pat)m[x]++;
+	    int count=m.size();
+	    int ans=0;
+	    int k=pat.size();
+	    while(end<txt.size()){
+	        m[txt[end]]--;
+	        if(m[txt[end]]==0)
+	            count--;
+	        if(end-start+1<k){
+	           end++;
+	        }
+	        else{
+	            if(count==0)
+	                ans++;
+	            m[txt[start]]++;
+	            if(m[txt[start]]==1)
+	                count++;
+	            
+	            start++;
+	            end++;
+	        }
 	    }
-	    
-	    if(checkAnagram(freq1,freq2))
-	        count++;
-	    int start=0;
-	   for(int end=pat.size();end<txt.size();end++)
-	   {
-	       freq2[txt[start]-'a']--;
-	       freq2[txt[end]-'a']++;
-	       if(checkAnagram(freq1,freq2))
-	        count++;
-	   start++;
-	   }
-	    return count;    
+	    return ans;
 	}
-    
+
 };
 
 // { Driver Code Starts.
