@@ -53,6 +53,7 @@ class Solution
              prev->next=curr->next;
              Node *temp=curr;
              curr=curr->next;
+             delete(temp);
          }
          else
          {
