@@ -11,19 +11,34 @@
 class Solution {
 public:
     int pairSum(ListNode* head) {
-        int sum=0;
-        unordered_map<int,int>mp;
-        int count=0;
-        ListNode *curr=head;
+        
+        ListNode *slow=head, *fast=head;
+        while(fast->next!=NULL && fast->next->next!=NULL)
+        {
+            slow=slow->next;
+            fast=fast->next->next;
+        }
+        
+        ListNode *prev=slow,*curr=slow->next,*next=curr,*end=NULL;
         while(curr!=NULL)
         {
-            mp[count]=curr->val;
-            curr=curr->next;
-            count++;
+            if(curr->next==NULL)
+            {
+                end=curr;
+            }
+            next=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=next;
         }
-        for(int i=0;i<count;i++)
+        slow->next=NULL;
+        ListNode *start=head;
+        int sum=0;
+        while(start!=NULL)
         {
-            sum=max(sum,mp[i]+mp[count-1-i]);
+            sum=max(sum,start->val+end->val);
+            start=start->next;
+            end=end->next;
         }
         return sum;
     }
