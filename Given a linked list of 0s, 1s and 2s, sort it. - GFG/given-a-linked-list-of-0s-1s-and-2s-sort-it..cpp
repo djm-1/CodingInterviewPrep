@@ -68,8 +68,12 @@ class Solution
         temp0->next=dummy1->next?dummy1->next:dummy2->next;
         temp1->next=dummy2->next;
         temp2->next=NULL;
-        return dummy0->next;
         
+        head=dummy0->next;
+        delete(dummy0);
+        delete(dummy1);
+        delete(dummy2);
+        return head;
         // Add code here
         
     }
