@@ -5,8 +5,7 @@ public:
         int start=0;
         int maxlen=0;
         
-        if(k>=nums.size())
-            return k;
+        
         for(int end=0;end<nums.size();end++)
         {
             if(nums[end]==0)
