@@ -1,63 +1,29 @@
 class Solution {
 public:
-    void NSL(vector<int>&heights, vector<int>&nsl,int n){
-        
+    int largestRectangleArea(vector<int>& heights) {
         stack<int>st;
-        for(int i=0;i<n;i++)
-        {
-            if(st.empty()){
-                st.push(i);
-            }
-            else{
-                while(!st.empty() && heights[st.top()]>heights[i])
-                {
-                    st.pop();
-                }
-                if(!st.empty())
-                {
-                    nsl[i]=st.top();
-                }
-                st.push(i);
-            }
-        }
-        return;
-    }
-    
-    
-    void NSR(vector<int>&heights, vector<int>&nsr,int n){
-        
-        stack<int>st;
-        for(int i=0;i<n;i++)
+        int area=0;
+        heights.push_back(0);
+        for(int i=0;i<heights.size();i++)
         {
             if(st.empty())
             {
                 st.push(i);
             }
-            else{
-                while(!st.empty() && heights[st.top()]>heights[i])
+            else
+            {
+                while(!st.empty() && heights[st.top()]>=heights[i])
                 {
-                    nsr[st.top()]=i;
+                    int idx=st.top();
                     st.pop();
+                    if(!st.empty())
+                        area=max(area,heights[idx]*(i-st.top()-1));
+                    else
+                        area=max(area,heights[idx]*i);
                 }
                 st.push(i);
             }
         }
-        
-        return;
-    }
-    
-    int largestRectangleArea(vector<int>& heights) {
-        
-        int n=heights.size();
-        vector<int>nsl(n,-1),nsr(n,n);
-        int hist=0;
-        NSL(heights,nsl,n);
-        NSR(heights,nsr,n);
-        for(int i=0;i<n;i++)
-        {
-            int area=(nsr[i]-nsl[i]-1)*heights[i];
-            hist=max(area,hist);
-        }
-        return hist;
+        return area;
     }
 };
