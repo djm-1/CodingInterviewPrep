@@ -2,7 +2,7 @@ class Solution {
 public:
     
     void combination(vector<vector<int>>&ans,vector<int>res,int ind, int k, int n){
-        if(res.size()==k)
+        if(k==0)
         {
             ans.push_back(res);
             return;
@@ -11,7 +11,7 @@ public:
         for(int i=ind;i<=n;i++)
         {
             res.push_back(i);
-            combination(ans,res,i+1,k,n);
+            combination(ans,res,i+1,k-1,n);
             res.pop_back();
         }
     }
