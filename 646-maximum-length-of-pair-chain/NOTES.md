@@ -1,1 +1,2 @@
-​
+# Approach
+LCS pattern
