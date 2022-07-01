@@ -7,12 +7,11 @@ public:
         sort(pairs.begin(),pairs.end(),comp);
         
         int n=pairs.size();
-        vector<int>dp(n);
-        dp[0]=1;
+        vector<int>dp(n,1);
         
         for(int i=1;i<n;i++)
         {
-            dp[i]=1;
+            
             for(int j=0;j<i;j++)
             {
                 if(pairs[j][1]<pairs[i][0])
