@@ -6,7 +6,7 @@ public:
     {
         if(parent[v]==-1)
             return v;
-        return find(parent[v]);
+        return parent[v]=find(parent[v]);
     }
     
     
