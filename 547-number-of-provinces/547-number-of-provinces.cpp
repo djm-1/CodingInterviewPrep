@@ -1,32 +1,44 @@
 class Solution {
 public:
+    vector<int>parent;
     
-    void dfs(vector<vector<int>>&Conn, int i, vector<bool>&visited){
-        if(visited[i])
-            return;
-        visited[i]=true;
-        for(int k=0;k<visited.size();k++)
-        {
-            if(Conn[i][k]==1)
-                dfs(Conn,k,visited);
-        }
+    int find_par(int v){
+        if(parent[v]==v)
+            return v;
+        else
+            return parent[v]=find_par(parent[v]);
     }
     
-    int findCircleNum(vector<vector<int>>& Conn) {
-        int n=Conn.size();
-        vector<bool>visited(n,false);
+    
+    void union_find(int u, int v){
+        parent[find_par(u)]=find_par(v);    
+        return;
+    }
+    
+    int findCircleNum(vector<vector<int>>& isConnected) {
         
-        int count=0;
+        int n=isConnected.size();
+        parent.resize(n);
+        
+        for(int i=0;i<n;i++)
+            parent[i]=i;
         
         for(int i=0;i<n;i++)
         {
-            if(!visited[i])
+            for(int j=0;j<n;j++)
             {
-                dfs(Conn,i,visited);
-                count++;
+                if(isConnected[i][j]==1)
+                {
+                    union_find(i,j);
+                }
             }
         }
-        
+        int count=0;
+        for(int i=0;i<n;i++)
+        {
+            if(parent[i]==i)
+                count++;
+        }
         return count;
     }
 };
