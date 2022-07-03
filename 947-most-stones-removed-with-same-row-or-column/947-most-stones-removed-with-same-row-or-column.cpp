@@ -40,9 +40,7 @@ public:
                 comps++;
         }
         
-        for(auto x:parent)
-            cout<<x<<" ";
-        cout<<"\n";
+        
         
         return n-comps;
     }
