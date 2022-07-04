@@ -7,38 +7,46 @@ class Solution
 {
     public:
     //Function to find out minimum steps Knight needs to reach target position.
+	
+	    vector<pair<int,int>> dir={
+        {2,1},{-2,-1},{-2,1},{2,-1},{1,-2},{-1,2},{1,2},{-1,-2}
+    };
+	
+	int minStepToReachTarget(vector<int>&KnightPos,vector<int>&TargetPos,int N)
+	{
 	    // Code here
-	    int minStepToReachTarget(vector<int>&KnightPos,vector<int>&TargetPos,int N)
-{
-    // Code here
-      vector<pair<int,int>>vec= {{2,1},{-2,-1},{-2,1},{2,-1},{1,-2},{-1,2},{1,2},{-1,-2}};
-       queue<pair<int,pair<int, int>>> q;
-       vector<vector<int>> visit(N+1, vector<int>(N+1));
-
-       q.push({0,{KnightPos[0],KnightPos[1]}});
-       visit[KnightPos[0]][KnightPos[1]]=1;
-       while (!q.empty()) {
-           int a=q.front().second.first;
-           int b=q.front().second.second;
-           int ans=q.front().first;
-           q.pop();
-           for(int i=0; i<vec.size(); i++) {
-               int f1=a+vec[i].first;
-               int f2=b+vec[i].second;
-              if(f1>0 && f1<=N && f2>0 && f2<=N && !visit[f1][f2]) {
-
-                   q.push({ans+1,{f1,f2}});
-                   visit[f1][f2]=1;
-               }
-               if(TargetPos[0]==f1 && TargetPos[1]==f2)
-                   return ans+1;
-           }
-
-       }
-
-       return 0;
-
-}
+	  
+	    vector<vector<bool>>visited(N+2,vector<bool>(N+2,false));
+	    
+	    queue<pair<int,int>>Q;
+	    Q.push({KnightPos[0],KnightPos[1]});
+	    visited[KnightPos[0]][KnightPos[1]]=true;
+	    int count=0;
+	    
+	    while(!Q.empty()){
+	        int m=Q.size();
+	        for(int sz=0;sz<m;sz++)
+	        {
+    	        pair<int,int>v=Q.front();
+    	        Q.pop();
+    	        if(v.first==TargetPos[0] && v.second==TargetPos[1])
+    	            return count;
+    	        for(auto d:dir){
+    	            int x=v.first+d.first;
+    	            int y=v.second+d.second;
+    	            
+    	            if(x>=1 && x<=N && y>=1 && y<=N && !visited[x][y])
+    	            {
+    	                Q.push({x,y});
+    	                visited[x][y]=true;
+    	            }
+    	        }
+	        }
+	        count++;
+	    }
+	    
+	    return -1;
+	}
 
 };
 
