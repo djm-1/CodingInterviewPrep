@@ -1,1 +1,2 @@
-​
+# Approach
+Dijkstra's algo
