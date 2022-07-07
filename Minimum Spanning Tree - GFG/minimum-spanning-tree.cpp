@@ -13,6 +13,9 @@ class Edge{
            this->w=w;
         }
 	};
+	
+//krushkal's algo implementation
+
 class Solution
 {
 	public:
