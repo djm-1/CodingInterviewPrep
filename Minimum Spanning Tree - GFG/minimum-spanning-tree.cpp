@@ -4,16 +4,7 @@ using namespace std;
 
  // } Driver Code Ends
 
-class Edge{
-        public:
-        int u,v,w;
-        Edge(int u, int v, int w){
-           this->u=u;
-           this->v=v;
-           this->w=w;
-        }
-	};
-	
+
 //krushkal's algo implementation
 
 class Solution
@@ -47,10 +38,6 @@ class Solution
 	}
 	
 	
-	static bool comp(Edge &a, Edge &b){
-	    return b.w>a.w;
-	}
-	
 	//Function to find sum of weights of edges of the Minimum Spanning Tree.
     int spanningTree(int V, vector<vector<int>> adj[])
     {
@@ -63,22 +50,25 @@ class Solution
             parent[i]=i;
         }
         
-        vector<Edge>edges;
+        vector<pair<int,pair<int,int>>>edges;
         
         for(int i=0;i<V;i++)
         {
             for(auto x:adj[i])
             {
-                edges.push_back(Edge(i,x[0],x[1]));
+                edges.push_back({x[1],{i,x[0]}});
             }
         }
         
-        sort(edges.begin(),edges.end(),comp);
+        sort(edges.begin(),edges.end());
         int ans=0;
         for(int i=0;i<edges.size();i++)
         {
-            if(union_find(edges[i].u,edges[i].v))
-                ans+=edges[i].w;
+            int wt=edges[i].first;
+            int u=edges[i].second.first;
+            int v=edges[i].second.second;
+            if(union_find(u,v))
+                ans+=wt;
         }
         return ans;
     }
