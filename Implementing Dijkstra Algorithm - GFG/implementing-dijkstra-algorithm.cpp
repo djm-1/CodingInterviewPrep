@@ -11,10 +11,11 @@ class Solution
 	//Function to find the shortest distance of all the vertices
     //from the source vertex S.
     vector<pair<int,int>> g[100100];
-    long long dist[100100];
+    //long long dist[100100];
     int vis[100100];
     
     vector <int> dijkstra(int V, vector<vector<int>> adj[], int S){
+        vector<int>dist(V,INT_MAX);
         for(int i=0;i<V;i++){
             dist[i] = 1e18;
             vis[i] = 0;
@@ -36,11 +37,8 @@ class Solution
                 }
             }
         }
-        vector<int> temp;
-        for(int i=0;i<V;i++){
-            temp.push_back(dist[i]);
-        }
-        return temp;
+        
+        return dist;
 }
 };
 
