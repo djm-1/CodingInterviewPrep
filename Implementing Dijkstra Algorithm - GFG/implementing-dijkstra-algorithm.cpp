@@ -8,35 +8,40 @@ class Solution
 	public:
 	//Function to find the shortest distance of all the vertices
     //from the source vertex S.
-    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S)
-    {
-        // Code here
-        
-        // <weight,vertex>
-        
-        priority_queue<pair<int,int>>Q;
-        
-        Q.push({0,S});
-        
-        vector<int>dist(V,INT_MAX);
-        dist[S]=0;
-        
-
-        while(!Q.empty()){
-            auto v=Q.top();
-            Q.pop();
-            for(auto x:adj[v.second])
-            {
-                if(dist[v.second]+x[1]<dist[x[0]])
-                {
-                    dist[x[0]]=dist[v.second]+x[1];
-                    Q.push({dist[x[1]],x[0]});
+	//Function to find the shortest distance of all the vertices
+    //from the source vertex S.
+    vector<pair<int,int>> g[100100];
+    long long dist[100100];
+    int vis[100100];
+    
+    vector <int> dijkstra(int V, vector<vector<int>> adj[], int S){
+        for(int i=0;i<V;i++){
+            dist[i] = 1e18;
+            vis[i] = 0;
+        }
+        dist[S] = 0;
+           priority_queue<pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>>> pq;
+        pq.push({0,S});
+        while(!pq.empty()){
+            pair<int,int> xx = pq.top();
+            pq.pop();
+            if(vis[xx.second]) continue;
+            vis[xx.second] = 1;
+            for(auto v : adj[xx.second]){
+                int neigh = v[0];
+                int weigh = v[1];
+                if(dist[neigh] > dist[xx.second] + weigh){
+                    dist[neigh] = dist[xx.second] + weigh;
+                    pq.push({dist[neigh],neigh});
                 }
             }
         }
-        
-        return dist;
-    }
+        vector<int> temp;
+        for(int i=0;i<V;i++){
+            temp.push_back(dist[i]);
+        }
+        return temp;
+}
 };
 
 
