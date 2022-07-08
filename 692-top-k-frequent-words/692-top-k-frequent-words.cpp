@@ -3,7 +3,7 @@ class myComparator {
     bool operator() (pair<int,string> &p1, pair<int,string>&p2) {
       if(p1.first == p2.first) return p1.second < p2.second;
       
-      return p1.first > p2.first;
+      return p1.first < p2.first;
     }
 };
 class Solution {
@@ -18,7 +18,7 @@ public:
         
         for(auto x:mp)
         {
-            pq.push({x.second,x.first});
+            pq.push({-x.second,x.first});
             if(pq.size()>k)
                 pq.pop();
         }
