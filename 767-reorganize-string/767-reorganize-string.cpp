@@ -10,29 +10,27 @@ public:
         for(auto x:mp)
             pq.push({x.second,x.first});
         
-         while(pq.size()>1){
-            auto top1= pq.top();
+        while(pq.size()>1)
+        {
+            auto fir=pq.top();
             pq.pop();
-            auto top2 = pq.top();
+            auto sec=pq.top();
             pq.pop();
             
-            ans+=top1.second;
-            ans+=top2.second;
+            ans+=fir.second;
+            ans+=sec.second;
             
-            top1.first -=1;
-            top2.first -= 1;
-            
-            if(top1.first > 0)
-                pq.push(top1);
-            
-            if(top2.first > 0)
-                pq.push(top2);
+            sec.first--,fir.first--;
+            if(fir.first>0)
+                pq.push(fir);
+            if(sec.first>0)
+                pq.push(sec);
         }
         
-        if(!pq.empty()){
-            if(pq.top().first > 1)
+        if(!pq.empty())
+        {
+            if(pq.top().first>1)
                 return "";
-            
             else
                 ans+=pq.top().second;
         }
