@@ -46,6 +46,10 @@ class Solution
             }
             else
             {
+                /* get the excess element from right
+                x>left.top() is fine but no gurantee that x<right.top()
+                so push into ribht first then transfer the excess element */ 
+                
                 right.push(x);
                 int m=right.top();
                 right.pop();
