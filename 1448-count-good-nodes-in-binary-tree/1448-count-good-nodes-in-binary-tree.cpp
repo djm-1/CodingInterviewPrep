@@ -12,24 +12,22 @@
 class Solution {
 public:
     int count=0;
-    //int maxi=INT_MIN;
-    void inorder(TreeNode* root,int maxi){
+    
+    void helper(TreeNode *root, int maxi){
         if(root==NULL)
             return;
         
         if(root->val>=maxi)
         {
-            count++;
             maxi=root->val;
+            count++;
         }
-        inorder(root->left,maxi);
-        inorder(root->right,maxi);
-        //return;
+        helper(root->left,maxi);
+        helper(root->right,maxi);
     }
     int goodNodes(TreeNode* root) {
-       
         int maxi=INT_MIN;
-        inorder(root,maxi);
+        helper(root,maxi);
         return count;
     }
 };
