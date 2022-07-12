@@ -11,18 +11,22 @@
  */
 class Solution {
 public:
+    TreeNode *prev=NULL;
     int mindiff=INT_MAX;
-    int prev=-1;
-    void helper(TreeNode *curr){
-        if(curr==NULL)
+    
+    
+    void helper(TreeNode *root){
+        if(root==NULL)
             return;
-        helper(curr->left);
-        if(prev!=-1){
-            mindiff=min(mindiff,abs(curr->val-prev));
+        helper(root->left);
+        if(prev!=NULL)
+        {
+            mindiff=min(mindiff,root->val-prev->val);
         }
-        prev=curr->val;
-        helper(curr->right);
+        prev=root;
+        helper(root->right);
     }
+    
     
     int getMinimumDifference(TreeNode* root) {
         helper(root);
