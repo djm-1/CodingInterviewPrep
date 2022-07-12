@@ -25,23 +25,57 @@ class Solution
     public:
     //Function to find the least absolute difference between any node
 	//value of the BST and the given integer.
+    int FloorK=INT_MAX;
+    int CeilK=INT_MAX;
     
-    int minD=INT_MAX;
+    void TreeFloor(Node* root, int K){
+        while(root!=NULL)
+        {
+            if(root->data==K)
+            {
+                FloorK=K;
+                return;
+            }
+            else if(root->data<K)
+            {
+                FloorK=root->data;
+                root=root->right;
+            }
+            else
+            {
+                root=root->left;
+            }
+            
+        }
+    }
     
-    void helper(Node *root, int K)
+    
+    void TreeCeil(Node *root, int K)
     {
-        if(root==NULL)
-            return;
-        minD=min(minD,abs(root->data-K));
-        helper(root->left,K);
-        helper(root->right,K);
+        while(root!=NULL)
+        {
+            if(root->data==K)
+            {
+                CeilK=K;
+                return;
+            }    
+            else if(root->data>K)
+            {
+                CeilK=root->data;
+                root=root->left;
+            }
+            else
+                root=root->right;
+        }
     }
     
     int minDiff(Node *root, int K)
     {
         //Your code here
-        helper(root,K);
-        return minD;
+        TreeFloor(root,K);
+        TreeCeil(root,K);
+        
+        return min(abs(CeilK-K),abs(FloorK-K));
     }
 };
 
