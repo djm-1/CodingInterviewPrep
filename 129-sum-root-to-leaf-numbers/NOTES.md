@@ -1,0 +1,2 @@
+# Approach
+Pre order Traversal
