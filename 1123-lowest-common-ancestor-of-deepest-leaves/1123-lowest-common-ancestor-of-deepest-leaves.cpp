@@ -17,7 +17,9 @@ public:
     {
         if(root==NULL)
             return 0;
-        return max(findDepth(root->left),findDepth(root->right))+1;
+        if(!depth[root])
+            depth[root]=max(findDepth(root->left),findDepth(root->right))+1;
+        return depth[root];
     }
     TreeNode* lcaDeepestLeaves(TreeNode* root) {
         if(root==NULL)
