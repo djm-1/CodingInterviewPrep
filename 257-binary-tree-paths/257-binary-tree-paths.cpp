@@ -16,15 +16,15 @@ public:
     
     void backtrack(TreeNode* root,string s)
     {
+        s+=to_string(root->val);
         if(!root->left && !root->right)
         {
-            s+=to_string(root->val);
+            
             ans.push_back(s);
             
             return;
         }
         
-        s+=to_string(root->val);
         if(root->left)
             backtrack(root->left,s+"->");
         if(root->right)
