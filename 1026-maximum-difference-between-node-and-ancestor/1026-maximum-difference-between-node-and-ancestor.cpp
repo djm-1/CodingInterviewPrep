@@ -11,18 +11,21 @@
  */
 class Solution {
 public:
-    int helper(TreeNode *root, int mini, int maxi){
+    int maxdiff=INT_MIN;
+    void helper(TreeNode *root, int mini, int maxi){
         if(root==NULL)
-            return maxi-mini;
+            return;
         maxi=max(maxi,root->val);
         mini=min(mini,root->val);
         
-        int left=helper(root->left,mini,maxi);
-        int right=helper(root->right,mini,maxi);
+        maxdiff=max(maxdiff,maxi-mini);
         
-        return max(left,right);
+        helper(root->left,mini,maxi);
+        helper(root->right,mini,maxi);
+        
     }
     int maxAncestorDiff(TreeNode* root) {
-        return helper(root,root->val,root->val);
+        helper(root,root->val,root->val);
+        return maxdiff;
     }
 };
