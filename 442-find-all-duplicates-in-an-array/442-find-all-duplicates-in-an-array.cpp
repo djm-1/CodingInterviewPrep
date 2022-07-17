@@ -7,11 +7,11 @@ public:
         
         for(int i=0;i<n;i++)
         {
-            int x=abs(nums[i])-1;
-            if(nums[x]<0)
-                ans.push_back(x+1);
+            int idx=abs(nums[i])-1;
+            if(nums[idx]>0)
+                nums[idx]*=-1;
             else
-                nums[x]*=-1;
+                ans.push_back(idx+1);
         }
         
         return ans;
