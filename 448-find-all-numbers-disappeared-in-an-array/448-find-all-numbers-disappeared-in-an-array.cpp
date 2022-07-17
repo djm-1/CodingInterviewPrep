@@ -6,7 +6,7 @@ public:
         for(int i=0;i<nums.size();i++)
         {
             int idx=abs(nums[i])-1;
-            if(idx>=0 && nums[idx]>0)
+            if(nums[idx]>0)
                 nums[idx]*=-1;
         }
         
