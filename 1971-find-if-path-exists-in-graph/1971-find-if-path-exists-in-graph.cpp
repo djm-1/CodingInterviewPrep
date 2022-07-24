@@ -13,18 +13,18 @@ public:
         
         queue<int>Q;
         Q.push(source);
-        visited[source]=false;
+        visited[source]=true;
         
         while(!Q.empty()){
             int val=Q.front();
             Q.pop();
-            visited[val]=true;
             
             for(auto x:adj[val])
             {
                 if(!visited[x])
                 {
                     Q.push(x);
+                    visited[x]=true;
                 }
             }
         }
