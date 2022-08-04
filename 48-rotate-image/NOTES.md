@@ -1,1 +1,2 @@
-​
+# Approach
+Transpose+reverse row
