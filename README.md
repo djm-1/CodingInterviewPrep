@@ -31,4 +31,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
+## Array
+|  |
+| ------- |
+| [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
 <!---LeetCode Topics End-->
