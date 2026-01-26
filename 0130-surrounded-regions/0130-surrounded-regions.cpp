@@ -1,44 +1,38 @@
 class Solution {
 public:
-    
-    
-    void dfs(vector<vector<char>>&board, int i, int j, int m, int n){
-        if(i<0||i>=m||j<0||j>=n||board[i][j]=='X'||board[i][j]=='B')
+    void dfs(vector<vector<char>>& board,int i,int j,int row,int col){
+        if(i<0||i>=row||j<0||j>=col||board[i][j]!='O')
             return;
         board[i][j]='B';
-        
-        dfs(board,i-1,j,m,n);
-        dfs(board,i+1,j,m,n);
-        dfs(board,i,j-1,m,n);
-        dfs(board,i,j+1,m,n);
+        dfs(board,i-1,j,row,col);
+        dfs(board,i+1,j,row,col);
+        dfs(board,i,j-1,row,col);
+        dfs(board,i,j+1,row,col);
+
     }
-    
     void solve(vector<vector<char>>& board) {
-        
-        int m=board.size();
-        int n=board[0].size();
-        
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
-                if((i==0||i==m-1||j==0||j==n-1) && board[i][j]=='O')
-                    dfs(board,i,j,m,n);
+        int row=board.size();
+        int col=board[0].size();
+
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
+                if((i==0||i==row-1||j==0||j==col-1) && board[i][j]=='O'){
+                    dfs(board,i,j,row,col);
+                }
             }
+
         }
-        
-        
-        for(int i=0;i<m;i++)
-        {
-            for(int j=0;j<n;j++)
-            {
+
+        for(int i=0;i<row;i++){
+            for(int j=0;j<col;j++){
                 if(board[i][j]=='O')
+                {
                     board[i][j]='X';
-                else if(board[i][j]=='B')
+                }
+                else if(board[i][j]=='B'){
                     board[i][j]='O';
+                }
             }
         }
-        
-        return;
     }
 };
