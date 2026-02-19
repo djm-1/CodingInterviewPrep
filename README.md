@@ -40,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
@@ -49,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/djm-1/CodingInterviewPrep/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
+| [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
 ## Depth-First Search
@@ -76,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
+| [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 ## Tree
