@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/djm-1/CodingInterviewPrep/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/djm-1/CodingInterviewPrep/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -78,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
@@ -91,4 +94,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/djm-1/CodingInterviewPrep/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+## Stack
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
