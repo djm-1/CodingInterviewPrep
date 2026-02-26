@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 ## Linked List
@@ -36,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
@@ -51,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
@@ -101,9 +104,11 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 <!---LeetCode Topics End-->
