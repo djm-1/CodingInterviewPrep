@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
+| [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
 ## Array
 |  |
 | ------- |
@@ -111,4 +112,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
