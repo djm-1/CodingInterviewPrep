@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0141-linked-list-cycle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
@@ -28,12 +29,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
+| [0141-linked-list-cycle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 | [0876-middle-of-the-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0876-middle-of-the-linked-list) |
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
 | [0876-middle-of-the-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0876-middle-of-the-linked-list) |
