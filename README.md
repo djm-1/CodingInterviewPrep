@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
+| [1046-last-stone-weight](https://github.com/djm-1/CodingInterviewPrep/tree/master/1046-last-stone-weight) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -134,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/djm-1/CodingInterviewPrep/tree/master/0023-merge-k-sorted-lists) |
+| [1046-last-stone-weight](https://github.com/djm-1/CodingInterviewPrep/tree/master/1046-last-stone-weight) |
 ## Merge Sort
 |  |
 | ------- |
