@@ -30,11 +30,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
+| [0876-middle-of-the-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0876-middle-of-the-linked-list) |
 ## Linked List
 |  |
 | ------- |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
+| [0876-middle-of-the-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0876-middle-of-the-linked-list) |
 ## Array
 |  |
 | ------- |
