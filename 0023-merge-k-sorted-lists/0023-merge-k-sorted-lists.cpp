@@ -1,27 +1,47 @@
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode() : val(0), next(nullptr) {}
+ *     ListNode(int x) : val(x), next(nullptr) {}
+ *     ListNode(int x, ListNode *next) : val(x), next(next) {}
+ * };
+ */
 class Solution {
+    struct cmp{
+        bool operator()(ListNode* a, ListNode*b) const{
+            return a->val>b->val; //minheap
+        }
+    };
 public:
     ListNode* mergeKLists(vector<ListNode*>& lists) {
-        ListNode *dummy=new ListNode(0);
-        ListNode *ptr=dummy;
-        priority_queue<int>Q;
-        for(int i=0;i<lists.size();i++)
-        {
-            while(lists[i]!=NULL)
-            {
-                Q.push(-lists[i]->val);
-                lists[i]=lists[i]->next;
-            }
+        priority_queue<ListNode*, vector<ListNode*>,cmp>pq;
+
+        for(auto node:lists){
+            if(node)
+                pq.push(node);
         }
-        
-        while(!Q.empty()){
-            int curr=Q.top();
-            Q.pop();
-            ptr->next=new ListNode(-curr);
-            ptr=ptr->next;
+
+
+        ListNode dummy(0);
+
+        ListNode *tail=&dummy;
+
+        while(!pq.empty()){
+            ListNode* curr= pq.top();
+            pq.pop();
+            tail->next=curr;
+            tail=tail->next;
+
+            if(curr->next)
+                pq.push(curr->next);
         }
-        
-        ListNode *head=dummy->next;
-        delete(dummy);
-        return head;
+
+        tail->next=NULL;
+
+        return dummy.next;
+
+
     }
 };
