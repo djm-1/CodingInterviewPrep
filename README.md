@@ -78,6 +78,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0094-binary-tree-inorder-traversal) |
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0144-binary-tree-preorder-traversal) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
@@ -108,11 +109,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0144-binary-tree-preorder-traversal) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/djm-1/CodingInterviewPrep/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0144-binary-tree-preorder-traversal) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/djm-1/CodingInterviewPrep/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 ## Stack
@@ -121,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/djm-1/CodingInterviewPrep/tree/master/0020-valid-parentheses) |
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
+| [0094-binary-tree-inorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0094-binary-tree-inorder-traversal) |
 | [0144-binary-tree-preorder-traversal](https://github.com/djm-1/CodingInterviewPrep/tree/master/0144-binary-tree-preorder-traversal) |
 | [0735-asteroid-collision](https://github.com/djm-1/CodingInterviewPrep/tree/master/0735-asteroid-collision) |
 ## Monotonic Stack
