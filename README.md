@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0141-linked-list-cycle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/djm-1/CodingInterviewPrep/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -61,6 +62,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
+| [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/djm-1/CodingInterviewPrep/tree/master/0735-asteroid-collision) |
@@ -188,6 +190,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
+| [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 | [1248-count-number-of-nice-subarrays](https://github.com/djm-1/CodingInterviewPrep/tree/master/1248-count-number-of-nice-subarrays) |
