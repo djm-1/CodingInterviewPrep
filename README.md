@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/djm-1/CodingInterviewPrep/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 ## String
 |  |
 | ------- |
@@ -60,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/djm-1/CodingInterviewPrep/tree/master/0735-asteroid-collision) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
 | [1046-last-stone-weight](https://github.com/djm-1/CodingInterviewPrep/tree/master/1046-last-stone-weight) |
 ## Dynamic Programming
@@ -181,4 +183,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
+| [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 <!---LeetCode Topics End-->
