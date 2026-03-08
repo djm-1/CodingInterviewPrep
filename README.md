@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
+| [0238-product-of-array-except-self](https://github.com/djm-1/CodingInterviewPrep/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [0238-product-of-array-except-self](https://github.com/djm-1/CodingInterviewPrep/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
