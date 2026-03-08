@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
 | [0238-product-of-array-except-self](https://github.com/djm-1/CodingInterviewPrep/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0304-range-sum-query-2d-immutable) |
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
@@ -122,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
+| [0304-range-sum-query-2d-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0304-range-sum-query-2d-immutable) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 ## Tree
@@ -191,11 +193,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0304-range-sum-query-2d-immutable) |
 ## Prefix Sum
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/djm-1/CodingInterviewPrep/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0303-range-sum-query-immutable) |
+| [0304-range-sum-query-2d-immutable](https://github.com/djm-1/CodingInterviewPrep/tree/master/0304-range-sum-query-2d-immutable) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
