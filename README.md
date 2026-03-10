@@ -54,6 +54,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
+| [0078-subsets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0078-subsets) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
 ## Design
 |  |
@@ -226,4 +228,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/djm-1/CodingInterviewPrep/tree/master/0070-climbing-stairs) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
