@@ -70,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/djm-1/CodingInterviewPrep/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/djm-1/CodingInterviewPrep/tree/master/0735-asteroid-collision) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
@@ -190,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
+| [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
