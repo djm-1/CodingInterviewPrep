@@ -167,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/djm-1/CodingInterviewPrep/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/djm-1/CodingInterviewPrep/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
 ## Divide and Conquer
 |  |
@@ -215,6 +216,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [0050-powx-n](https://github.com/djm-1/CodingInterviewPrep/tree/master/0050-powx-n) |
 | [0070-climbing-stairs](https://github.com/djm-1/CodingInterviewPrep/tree/master/0070-climbing-stairs) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [1248-count-number-of-nice-subarrays](https://github.com/djm-1/CodingInterviewPrep/tree/master/1248-count-number-of-nice-subarrays) |
