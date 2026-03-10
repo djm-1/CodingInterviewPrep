@@ -1,21 +1,22 @@
 class Solution {
 public:
-    
-    double calc(double x,int n){
-        if(n==0)
-            return 1;
-        else if(n%2==0)
-            return calc(x*x,n/2);
-        else
-            return x*calc(x*x,n/2);
-    }
-    
-    double myPow(double x, int n) {
-        if(n<0)
-        {
-            n=abs(n);
-            x=1/x;
+    double binPow(double x, long long n){
+        if(n==0) return 1.0;
+        if(n==1) return x; //base case
+        double halfPow=binPow(x,n/2);
+        if(n%2==1){  //n is odd
+            return x*halfPow*halfPow;
         }
-        return calc(x,n);
+        else{ // n is even
+            return halfPow*halfPow;
+        }
+    }
+    double myPow(double x, long long n) {
+        if(n<0){
+            double ans=binPow(x,abs(n));
+            return 1.0/ans;
+        }
+
+        return binPow(x,n);
     }
 };
