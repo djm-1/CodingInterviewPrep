@@ -92,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/djm-1/CodingInterviewPrep/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
+| [0338-counting-bits](https://github.com/djm-1/CodingInterviewPrep/tree/master/0338-counting-bits) |
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
@@ -198,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0078-subsets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0078-subsets) |
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
+| [0338-counting-bits](https://github.com/djm-1/CodingInterviewPrep/tree/master/0338-counting-bits) |
 ## Design
 |  |
 | ------- |
