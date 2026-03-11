@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/djm-1/CodingInterviewPrep/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/djm-1/CodingInterviewPrep/tree/master/0130-surrounded-regions) |
+| [0136-single-number](https://github.com/djm-1/CodingInterviewPrep/tree/master/0136-single-number) |
 | [0200-number-of-islands](https://github.com/djm-1/CodingInterviewPrep/tree/master/0200-number-of-islands) |
 | [0213-house-robber-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0213-house-robber-ii) |
 | [0221-maximal-square](https://github.com/djm-1/CodingInterviewPrep/tree/master/0221-maximal-square) |
@@ -202,6 +203,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0078-subsets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0078-subsets) |
+| [0136-single-number](https://github.com/djm-1/CodingInterviewPrep/tree/master/0136-single-number) |
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
 | [0231-power-of-two](https://github.com/djm-1/CodingInterviewPrep/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/djm-1/CodingInterviewPrep/tree/master/0338-counting-bits) |
