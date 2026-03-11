@@ -69,6 +69,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
+| [0540-single-element-in-a-sorted-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0695-max-area-of-island](https://github.com/djm-1/CodingInterviewPrep/tree/master/0695-max-area-of-island) |
 | [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
+| [0540-single-element-in-a-sorted-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
