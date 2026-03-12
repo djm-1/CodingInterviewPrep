@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/djm-1/CodingInterviewPrep/tree/master/0724-find-pivot-index) |
 | [0735-asteroid-collision](https://github.com/djm-1/CodingInterviewPrep/tree/master/0735-asteroid-collision) |
+| [0875-koko-eating-bananas](https://github.com/djm-1/CodingInterviewPrep/tree/master/0875-koko-eating-bananas) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
@@ -199,6 +200,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0222-count-complete-tree-nodes](https://github.com/djm-1/CodingInterviewPrep/tree/master/0222-count-complete-tree-nodes) |
 | [0540-single-element-in-a-sorted-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/djm-1/CodingInterviewPrep/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/djm-1/CodingInterviewPrep/tree/master/0875-koko-eating-bananas) |
 ## Bit Manipulation
 |  |
 | ------- |
