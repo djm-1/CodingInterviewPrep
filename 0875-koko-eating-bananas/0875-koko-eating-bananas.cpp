@@ -3,7 +3,7 @@ public:
     bool helper(vector<int>& piles, int mid, int h){
         long long cnt=0;
         for(auto x:piles){
-            cnt+=((x+mid-1)/mid);
+            cnt+=ceil((double)x/mid);
         }
 
         if(cnt<=h)
