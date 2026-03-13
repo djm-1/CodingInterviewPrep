@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0141-linked-list-cycle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0142-linked-list-cycle-ii) |
+| [0424-longest-repeating-character-replacement](https://github.com/djm-1/CodingInterviewPrep/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0523-continuous-subarray-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0523-continuous-subarray-sum) |
 | [0525-contiguous-array](https://github.com/djm-1/CodingInterviewPrep/tree/master/0525-contiguous-array) |
@@ -23,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/djm-1/CodingInterviewPrep/tree/master/0020-valid-parentheses) |
+| [0424-longest-repeating-character-replacement](https://github.com/djm-1/CodingInterviewPrep/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 | [1143-longest-common-subsequence](https://github.com/djm-1/CodingInterviewPrep/tree/master/1143-longest-common-subsequence) |
@@ -30,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/djm-1/CodingInterviewPrep/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0567-permutation-in-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0567-permutation-in-string) |
 | [1248-count-number-of-nice-subarrays](https://github.com/djm-1/CodingInterviewPrep/tree/master/1248-count-number-of-nice-subarrays) |
