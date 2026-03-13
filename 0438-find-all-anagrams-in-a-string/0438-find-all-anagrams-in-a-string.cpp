@@ -1,33 +1,58 @@
 class Solution {
 public:
-    vector<int> findAnagrams(string s, string p) {
-        int k=p.size();
-        vector<int>ans;
-        if(k>s.size())
-            return ans;
-        vector<int>hash_string(26,0),hash_substring(26,0);
-        
-        // calc hash of substring
-        for(auto x:p)
-            hash_substring[x-'a']++;
-        
-        // calc hash from 0 to k-1;
-
-        for(int i=0;i<k;i++){
-            hash_string[s[i]-'a']++;
+    bool isAnagram(unordered_map<char,int>&mp){
+        for(auto x:mp){
+            if(x.second!=0)
+                return false;
         }
+        return true;
+    }
+    vector<int> findAnagrams(string s, string p) {
+        int n=s.size();
+        vector<int>ans;
+        int l=0,r=0;
 
-        // compare
-        if(hash_string==hash_substring){
+        int k=p.size(); //window size
+
+        if(n<k) 
+            return ans;
+
+        unordered_map<char,int>mp;
+
+        for(auto x:p)
+            mp[x]++; //Tracking freq.
+
+        for(r=0;r<k;r++){
+            if(mp.find(s[r])!=mp.end()){
+                mp[s[r]]--; //req going down for incoming
+            }
+        } //first window
+        
+        if(isAnagram(mp))
+        {
             ans.push_back(0);
         }
 
-        for(int i=k;i<s.size();i++){
-            hash_string[s[i]-'a']++;
-            hash_string[s[i-k]-'a']--;
-            if(hash_string==hash_substring){
-                ans.push_back(i-k+1);
+        //after first window is done
+
+        for(r=k;r<n;r++){
+            // from l side char going out
+            if(mp.find(s[l])!=mp.end()){
+                mp[s[l]]++;
             }
+            
+            l++;
+
+            if(mp.find(s[r])!=mp.end()){
+                mp[s[r]]--; //req going down for incoming
+            }
+
+            if(isAnagram(mp))
+            {
+                ans.push_back(l);
+            }
+
+            //l++;
         }
 
         return ans;
