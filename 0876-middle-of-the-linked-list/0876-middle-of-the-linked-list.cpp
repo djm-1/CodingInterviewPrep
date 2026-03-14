@@ -11,14 +11,28 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        ListNode *slow=head;
-        ListNode *fast=head;
+        int cnt=0;
+        ListNode *curr=head;
 
-        while(fast!=NULL && fast->next!=NULL){
-            slow=slow->next;
-            fast=fast->next->next;
+        while(curr!=NULL)
+        {
+            cnt++;
+            curr=curr->next;
         }
 
-        return slow;
+        // Counted nodes so far
+
+        int x=(cnt/2)+1;
+
+        //reset current ptr at head
+        curr=head;
+        cnt=1;
+        while(curr!=NULL & cnt<x){
+            cnt++;
+            curr=curr->next;
+        }
+
+        return curr;
+
     }
 };
