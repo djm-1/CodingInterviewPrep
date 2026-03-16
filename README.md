@@ -26,6 +26,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0020-valid-parentheses](https://github.com/djm-1/CodingInterviewPrep/tree/master/0020-valid-parentheses) |
+| [0044-wildcard-matching](https://github.com/djm-1/CodingInterviewPrep/tree/master/0044-wildcard-matching) |
 | [0076-minimum-window-substring](https://github.com/djm-1/CodingInterviewPrep/tree/master/0076-minimum-window-substring) |
 | [0424-longest-repeating-character-replacement](https://github.com/djm-1/CodingInterviewPrep/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/djm-1/CodingInterviewPrep/tree/master/0438-find-all-anagrams-in-a-string) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/djm-1/CodingInterviewPrep/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/djm-1/CodingInterviewPrep/tree/master/0044-wildcard-matching) |
 | [0070-climbing-stairs](https://github.com/djm-1/CodingInterviewPrep/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/djm-1/CodingInterviewPrep/tree/master/0118-pascals-triangle) |
@@ -186,6 +188,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/djm-1/CodingInterviewPrep/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/djm-1/CodingInterviewPrep/tree/master/0044-wildcard-matching) |
 | [0050-powx-n](https://github.com/djm-1/CodingInterviewPrep/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/djm-1/CodingInterviewPrep/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/djm-1/CodingInterviewPrep/tree/master/0231-power-of-two) |
@@ -263,4 +266,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1876-substrings-of-size-three-with-distinct-characters](https://github.com/djm-1/CodingInterviewPrep/tree/master/1876-substrings-of-size-three-with-distinct-characters) |
+## Greedy
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/djm-1/CodingInterviewPrep/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
