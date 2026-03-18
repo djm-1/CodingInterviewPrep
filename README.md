@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
+| [1000-minimum-cost-to-merge-stones](https://github.com/djm-1/CodingInterviewPrep/tree/master/1000-minimum-cost-to-merge-stones) |
 | [1046-last-stone-weight](https://github.com/djm-1/CodingInterviewPrep/tree/master/1046-last-stone-weight) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/djm-1/CodingInterviewPrep/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1109-corporate-flight-bookings](https://github.com/djm-1/CodingInterviewPrep/tree/master/1109-corporate-flight-bookings) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0518-coin-change-ii](https://github.com/djm-1/CodingInterviewPrep/tree/master/0518-coin-change-ii) |
 | [0931-minimum-falling-path-sum](https://github.com/djm-1/CodingInterviewPrep/tree/master/0931-minimum-falling-path-sum) |
 | [0983-minimum-cost-for-tickets](https://github.com/djm-1/CodingInterviewPrep/tree/master/0983-minimum-cost-for-tickets) |
+| [1000-minimum-cost-to-merge-stones](https://github.com/djm-1/CodingInterviewPrep/tree/master/1000-minimum-cost-to-merge-stones) |
 | [1143-longest-common-subsequence](https://github.com/djm-1/CodingInterviewPrep/tree/master/1143-longest-common-subsequence) |
 ## Depth-First Search
 |  |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/djm-1/CodingInterviewPrep/tree/master/0724-find-pivot-index) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/djm-1/CodingInterviewPrep/tree/master/0974-subarray-sums-divisible-by-k) |
+| [1000-minimum-cost-to-merge-stones](https://github.com/djm-1/CodingInterviewPrep/tree/master/1000-minimum-cost-to-merge-stones) |
 | [1074-number-of-submatrices-that-sum-to-target](https://github.com/djm-1/CodingInterviewPrep/tree/master/1074-number-of-submatrices-that-sum-to-target) |
 | [1109-corporate-flight-bookings](https://github.com/djm-1/CodingInterviewPrep/tree/master/1109-corporate-flight-bookings) |
 | [1248-count-number-of-nice-subarrays](https://github.com/djm-1/CodingInterviewPrep/tree/master/1248-count-number-of-nice-subarrays) |
